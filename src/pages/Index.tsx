@@ -171,66 +171,24 @@ const Index = () => {
             <p className="text-xl text-muted-foreground font-roboto">Behind the scenes development updates</p>
           </div>
           
-          <div className="max-w-4xl mx-auto space-y-8">
+          <div className="max-w-4xl mx-auto">
             <Card className="game-card">
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-3">
-                    <Icon name="Code" size={24} className="text-primary" />
+                    <Icon name="Ghost" size={24} className="text-orange-500" />
                     <div>
-                      <CardTitle className="font-oswald text-xl">Performance Optimizations</CardTitle>
+                      <CardTitle className="font-oswald text-xl">Making Halloween Update</CardTitle>
                       <CardDescription className="font-roboto">September 14, 2024</CardDescription>
                     </div>
                   </div>
-                  <Badge variant="outline">In Progress</Badge>
+                  <Badge variant="outline" className="text-orange-500 border-orange-500">In Progress</Badge>
                 </div>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground font-roboto">
-                  Working on major performance improvements to reduce lag and enhance gameplay smoothness. 
-                  Expect 40% better frame rates in the next update.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="game-card">
-              <CardHeader>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center space-x-3">
-                    <Icon name="Palette" size={24} className="text-secondary" />
-                    <div>
-                      <CardTitle className="font-oswald text-xl">UI/UX Redesign</CardTitle>
-                      <CardDescription className="font-roboto">September 10, 2024</CardDescription>
-                    </div>
-                  </div>
-                  <Badge className="bg-green-500 text-white">Completed</Badge>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground font-roboto">
-                  Complete overhaul of the user interface for better accessibility and modern design principles. 
-                  New color scheme and improved navigation flow.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="game-card">
-              <CardHeader>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center space-x-3">
-                    <Icon name="Users" size={24} className="text-accent" />
-                    <div>
-                      <CardTitle className="font-oswald text-xl">Multiplayer Enhancements</CardTitle>
-                      <CardDescription className="font-roboto">September 8, 2024</CardDescription>
-                    </div>
-                  </div>
-                  <Badge variant="outline">Planning</Badge>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground font-roboto">
-                  Exploring new ways to improve multiplayer experience with better server stability 
-                  and enhanced social features for the community.
+                  Currently developing spooky features for the Halloween season. Working on haunted areas, 
+                  Halloween skins, and special seasonal rewards. Expected to launch in 3 days!
                 </p>
               </CardContent>
             </Card>
